@@ -1,11 +1,23 @@
 import React from 'react'
+import styled from 'styled-components';
 
 function Header() {
     return (
-        <div>
+        <HeaderContainer>
+            <h1>Test</h1>
+            {/* Header Left */}
+            {/* Header Searcj */}
+            {/* Header Right */}
             
-        </div>
+        </HeaderContainer>
     )
 }
 
-export default Header
+export default Header;
+
+
+const HeaderContainer = styled.div`
+    
+        color: green;
+    
+`

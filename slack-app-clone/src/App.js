@@ -11,24 +11,21 @@ import {
   useParams,
   Routes
 } from "react-router-dom";
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-     <Router>
-      <>
-        
+     
 
         <Routes>
 
-          <Route path="/" exact>
-            <h1>This is the Home Page </h1>
-          </Route>
+          <Route path="/" exact element={<Header/>}/>
+          
          
         </Routes>
         
-      </>
-    </Router>
+     
     </div>
   );
 }
