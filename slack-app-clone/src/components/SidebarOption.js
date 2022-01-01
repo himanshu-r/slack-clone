@@ -45,4 +45,6 @@ const SidebarOptionContainer = styled.div`
 
 `;
 
-const SidebarOptionChannel = styled.div``;
+const SidebarOptionChannel = styled.div`
+
+`;
